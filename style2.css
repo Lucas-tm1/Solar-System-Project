@@ -1,0 +1,49 @@
+body {
+    background-image: url(/img/EditedSpaceEffect.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-family: "Fredoka", sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: #ffd93d;
+}
+
+p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.planet {
+    justify-content: center;
+    gap: 25px;
+    margin-top: 60px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+.planet {
+    width: 120px;
+}
+
+.planet img {
+    height: 140px
+}
+
+.planet p {
+    margin-top: 50px;
+    font-weight: 800;
+}
+
+img.clickable {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+img.clickable:hover {
+    transform: scale(1.5);
+}
+
